@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using ECommerce.BLL.Helpers;
 using ECommerce.Objects;
 
 namespace ECommerce.BLL
@@ -35,7 +34,7 @@ namespace ECommerce.BLL
                     //Insert into OrderTable, OrderDetails Table
 
                     
-                    _emailRepository.SendEmail("pranays53@gmail.com", "Hello", "Hello");
+                    _emailRepository.SendEmail("pranays53@gmail.com", "Order status", "Order placed Successfully");
                 }
                 else
                 {

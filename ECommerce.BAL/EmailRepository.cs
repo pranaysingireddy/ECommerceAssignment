@@ -12,6 +12,7 @@ namespace ECommerce.BLL
 
         public bool SendEmail(string reciepentEmailID, string subject, string message)
         {
+
             //try
             //{
             //    string email = "fromemail";
